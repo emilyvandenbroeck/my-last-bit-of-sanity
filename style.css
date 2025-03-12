@@ -5,12 +5,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   margin: 2em;
-  background: #cbf1e4;
-  background-image: linear-gradient(
-    black,
-    pink,
-    #cbf1e4
-  ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
+  background: #FAF8F5;
+  /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
   background-image: cover;
 }
 
@@ -51,12 +47,13 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("https://cdn.glitch.global/1500d7f0-a2c8-489c-88a2-d7899293787b/clouds.jpeg?v=1704340625786");
+  background-image: url("https://cdn.glitch.global/faaa9235-2c78-4aef-a1ae-640cf300480a/tide%20texture.avif?v=1741744339278");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   font-family: "PT Serif", serif;
   font-size: 1.5em;
+  color: #004C5C;
 }
 
 /* Style the card for phone error alerts (do not edit)*/
@@ -80,12 +77,12 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: white;
-  background-image: url("https://cdn.glitch.global/1500d7f0-a2c8-489c-88a2-d7899293787b/notes-bg-black.png?v=1704432785084");
+  background-image: url("https://cdn.glitch.global/faaa9235-2c78-4aef-a1ae-640cf300480a/IMG_6153.jpg?v=1741747248589");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 375px;
-  color: white;
-  font-family: "Source Code Pro", monospace;
+  color: black;
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
 
