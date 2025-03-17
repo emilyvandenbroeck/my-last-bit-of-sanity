@@ -57,22 +57,23 @@ function dropdownFunction() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
-  "i am so hungry",
-  "where did odie go",
-  "get it your damn self",
-  "obey me human",
+  "there are people",
+  "and then there is you",
+  "do you see me here?",
+  "leaves are scuttling",
+  "your eyes are so green",
+  "now you've seen through mine",
+  "the leaves are turning",
+  "i think i love you",
+  "more than i deserve",
+  "show your heart to me",
 ];
 const sevenSyllables = [
-  "cheese makes everything better",
-  "the noodles must be wavey",
-  "nothing left to do but sleep",
-  "thinking about lasagne",
-  "yuk, no i don't want salad",
+  "and there are trees a'plenty",
+  "there is a breeze through my hair",
+  "do you still like me the same?",
+  "will you ever love freely?",
+  "afraid to show you my heart",
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
@@ -105,26 +106,39 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "am i okay",
+  "are there people in antarctica",
+  "ample definition",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "bunning",
+  "big w",
+  "bom melbourne",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "chatgpt",
+  "canva",
+  "chemist warehouse",
+  "can i change the air con filter on my car",
 
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
+  "dog training tips",
+  "devotee",
+  "dan murphy",
 
-  "earliest memories as a child",
-  "emotional manipulation signs",
+  "emily blunt",
+  "emotional manipulation",
+  "emotional instability causes",
 
-  "fridge magnets",
+  "free parking near me",
+  "ferntree gully hikes",
+  "furniture online",
+  
+  "good restraunts",
+  "google maps",
+  "garden gnomes",
+  
+  "have i got covid",
+  "how many people in australia",
+  "hypnotherapy",
+  
 ];
 //search function (do not edit)
 function changeText(e) {
@@ -156,15 +170,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "scholar, academic, student, master, teacher, thinker".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "reading, writing, learning, screaming, discussing, studying, testing, spiraling".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "at college, in the library, at the park, in the literary scene, at university, in the cafe, at a coffee, in the student lounge".split(
       ","
     );
 // set up the counter
